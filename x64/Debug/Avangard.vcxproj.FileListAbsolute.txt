@@ -1,2 +1,4 @@
 C:\Users\Хомяк\source\repos\Avangard\x64\Debug\Avangard.exe
 C:\Users\Хомяк\source\repos\Avangard\x64\Debug\Avangard.pdb
+E:\GitHub\Avangard\x64\Debug\Avangard.exe
+E:\GitHub\Avangard\x64\Debug\Avangard.pdb

@@ -10,6 +10,11 @@ class LoginWindow : public QWidget
 public:
 	LoginWindow(QWidget *parent = Q_NULLPTR);
 	~LoginWindow();
+	
+	void propertiesElements();
+private slots:
+	void enterToProfile();
+	void returnToBack();
 
 private:
 	Ui::LoginWindow ui;

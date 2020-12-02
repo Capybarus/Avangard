@@ -51,6 +51,7 @@ public:
         pushButtonRegistration->setMinimumSize(QSize(130, 30));
         pushButtonRegistration->setMaximumSize(QSize(130, 30));
         pushButtonRegistration->setFont(font);
+        pushButtonRegistration->setStyleSheet(QString::fromUtf8(""));
 
         gridLayout->addWidget(pushButtonRegistration, 0, 0, 1, 1);
 
@@ -63,7 +64,7 @@ public:
     void retranslateUi(QWidget *RegWindow)
     {
         RegWindow->setWindowTitle(QCoreApplication::translate("RegWindow", "Avangard", nullptr));
-        pushButtonLogin->setText(QCoreApplication::translate("RegWindow", "Login", nullptr));
+        pushButtonLogin->setText(QCoreApplication::translate("RegWindow", "\320\222\321\205\320\276\320\264", nullptr));
         pushButtonRegistration->setText(QCoreApplication::translate("RegWindow", "\320\240\320\265\320\263\320\270\321\201\321\202\321\200\320\260\321\206\320\270\321\217", nullptr));
     } // retranslateUi
 

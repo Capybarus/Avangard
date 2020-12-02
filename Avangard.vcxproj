@@ -86,7 +86,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CheckUsersData.cpp" />
     <ClCompile Include="ClientExecWindow.cpp" />
+    <ClCompile Include="LoginWindow.cpp" />
+    <ClCompile Include="Profile.cpp" />
     <ClCompile Include="RegWindow.cpp" />
     <QtRcc Include="Avangard.qrc" />
     <QtUic Include="Avangard.ui" />
@@ -94,6 +97,8 @@
     <ClCompile Include="Avangard.cpp" />
     <ClCompile Include="main.cpp" />
     <QtUic Include="ClientExecWindow.ui" />
+    <QtUic Include="LoginWindow.ui" />
+    <QtUic Include="Profile.ui" />
     <QtUic Include="RegWindow.ui" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +109,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Naming.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="LoginWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Profile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CheckUsersData.h" />
+    <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

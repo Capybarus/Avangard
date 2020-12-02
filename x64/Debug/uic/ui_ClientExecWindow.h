@@ -23,21 +23,22 @@ public:
     QGridLayout *gridLayout;
     QPushButton *pushButtonExecutor;
     QPushButton *pushButtonClient;
+    QPushButton *pushButtonBack;
 
     void setupUi(QWidget *ClientExecWindow)
     {
         if (ClientExecWindow->objectName().isEmpty())
             ClientExecWindow->setObjectName(QString::fromUtf8("ClientExecWindow"));
-        ClientExecWindow->resize(250, 200);
-        ClientExecWindow->setMinimumSize(QSize(250, 200));
-        ClientExecWindow->setMaximumSize(QSize(250, 200));
+        ClientExecWindow->resize(400, 93);
+        ClientExecWindow->setMinimumSize(QSize(400, 90));
+        ClientExecWindow->setMaximumSize(QSize(400, 93));
         gridLayout = new QGridLayout(ClientExecWindow);
         gridLayout->setSpacing(6);
         gridLayout->setContentsMargins(11, 11, 11, 11);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         pushButtonExecutor = new QPushButton(ClientExecWindow);
         pushButtonExecutor->setObjectName(QString::fromUtf8("pushButtonExecutor"));
-        pushButtonExecutor->setMinimumSize(QSize(190, 45));
+        pushButtonExecutor->setMinimumSize(QSize(185, 45));
         pushButtonExecutor->setMaximumSize(QSize(190, 45));
         QFont font;
         font.setFamily(QString::fromUtf8("System"));
@@ -50,11 +51,24 @@ public:
 
         pushButtonClient = new QPushButton(ClientExecWindow);
         pushButtonClient->setObjectName(QString::fromUtf8("pushButtonClient"));
-        pushButtonClient->setMinimumSize(QSize(190, 45));
+        pushButtonClient->setMinimumSize(QSize(185, 45));
         pushButtonClient->setMaximumSize(QSize(190, 45));
         pushButtonClient->setFont(font);
 
-        gridLayout->addWidget(pushButtonClient, 1, 0, 1, 1);
+        gridLayout->addWidget(pushButtonClient, 0, 1, 1, 1);
+
+        pushButtonBack = new QPushButton(ClientExecWindow);
+        pushButtonBack->setObjectName(QString::fromUtf8("pushButtonBack"));
+        pushButtonBack->setMinimumSize(QSize(0, 0));
+        pushButtonBack->setMaximumSize(QSize(400, 400));
+        QFont font1;
+        font1.setFamily(QString::fromUtf8("System"));
+        font1.setPointSize(12);
+        font1.setBold(true);
+        font1.setWeight(75);
+        pushButtonBack->setFont(font1);
+
+        gridLayout->addWidget(pushButtonBack, 1, 0, 1, 2);
 
 
         retranslateUi(ClientExecWindow);
@@ -69,6 +83,7 @@ public:
 "\320\270\321\201\320\277\320\276\320\273\320\275\320\270\321\202\320\265\320\273\321\214", nullptr));
         pushButtonClient->setText(QCoreApplication::translate("ClientExecWindow", "\320\227\320\260\321\200\320\265\320\263\320\270\321\201\321\202\321\200\320\270\321\200\320\276\320\262\320\260\321\202\321\214\321\201\321\217 \320\272\320\260\320\272\n"
 "\320\267\320\260\320\272\320\260\320\267\321\207\320\270\320\272", nullptr));
+        pushButtonBack->setText(QCoreApplication::translate("ClientExecWindow", "\320\235\320\260\320\267\320\260\320\264", nullptr));
     } // retranslateUi
 
 };
