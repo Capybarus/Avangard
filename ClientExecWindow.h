@@ -10,6 +10,8 @@ class ClientExecWindow : public QWidget
 public:
 	ClientExecWindow(QWidget *parent = Q_NULLPTR);
 	~ClientExecWindow();
+private slots:
+	void returnToBack();
 
 private:
 	Ui::ClientExecWindow ui;

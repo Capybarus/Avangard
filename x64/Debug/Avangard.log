@@ -1,2 +1,6 @@
-﻿  RegWindow.cpp
+﻿  uic RegWindow.ui
+  ClientExecWindow.cpp
+  RegWindow.cpp
+  main.cpp
+  moc_RegWindow.cpp
   Avangard.vcxproj -> C:\Users\Хомяк\source\repos\Avangard\x64\Debug\Avangard.exe

@@ -47,6 +47,9 @@
     <ClCompile Include="ClientExecWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LoginWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="RegWindow.ui">
@@ -55,12 +58,18 @@
     <QtUic Include="ClientExecWindow.ui">
       <Filter>Resource Files</Filter>
     </QtUic>
+    <QtUic Include="LoginWindow.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="RegWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="ClientExecWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LoginWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
