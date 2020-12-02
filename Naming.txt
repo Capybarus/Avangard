@@ -1,0 +1,4 @@
+Локальные переменные - snake_lower_case
+Глобальные переменные - Snake_Upper_Case
+Методы - camelCase
+Классы - CamelCase

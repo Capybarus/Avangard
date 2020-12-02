@@ -1,0 +1,2 @@
+C:\Users\Хомяк\source\repos\Avangard\x64\Debug\Avangard.exe
+C:\Users\Хомяк\source\repos\Avangard\x64\Debug\Avangard.pdb
