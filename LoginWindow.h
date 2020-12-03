@@ -12,10 +12,16 @@ public:
 	~LoginWindow();
 	
 	void propertiesElements();
+	void setLogPass();			//Для окна регистрации (перенести)
+	bool checkingLogin();		//Для окна регистрации (перенести)
 private slots:
 	void enterToProfile();
 	void returnToBack();
 
 private:
+
+	QString Login;
+	QString Password;
+
 	Ui::LoginWindow ui;
 };

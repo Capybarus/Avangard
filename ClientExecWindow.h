@@ -10,11 +10,16 @@ class ClientExecWindow : public QWidget
 public:
 	ClientExecWindow(QWidget *parent = Q_NULLPTR);
 	~ClientExecWindow();
+	void fillReg();
+
 private slots:
 	void returnToBack();
 	void regAsExecutor();
 	void regAsClient();
+	
 
 private:
+
+	bool Executor;
 	Ui::ClientExecWindow ui;
 };

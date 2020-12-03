@@ -1,6 +1,2 @@
-﻿  ClientExecWindow.cpp
-  LoginWindow.cpp
-  RegWindow.cpp
-E:\GitHub\Avangard\ClientExecWindow.cpp(9,50): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "SLOT"
-E:\GitHub\Avangard\ClientExecWindow.cpp(10,52): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "SLOT"
+﻿  CreateAccount.cpp
   Avangard.vcxproj -> E:\GitHub\Avangard\x64\Debug\Avangard.exe

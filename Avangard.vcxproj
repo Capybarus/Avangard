@@ -88,6 +88,7 @@
   <ItemGroup>
     <ClCompile Include="CheckUsersData.cpp" />
     <ClCompile Include="ClientExecWindow.cpp" />
+    <ClCompile Include="CreateAccount.cpp" />
     <ClCompile Include="LoginWindow.cpp" />
     <ClCompile Include="Profile.cpp" />
     <ClCompile Include="RegWindow.cpp" />
@@ -97,6 +98,7 @@
     <ClCompile Include="Avangard.cpp" />
     <ClCompile Include="main.cpp" />
     <QtUic Include="ClientExecWindow.ui" />
+    <QtUic Include="CreateAccount.ui" />
     <QtUic Include="LoginWindow.ui" />
     <QtUic Include="Profile.ui" />
     <QtUic Include="RegWindow.ui" />
@@ -118,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CheckUsersData.h" />
+    <QtMoc Include="CreateAccount.h" />
     <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
